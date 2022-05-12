@@ -1,4 +1,4 @@
-# 이상한 문자열 만들기
+# 이상한 문자 만들기
 
 def solution(s):
     answer = ''
