@@ -6,10 +6,8 @@ def solution(prices):
     for p in range(len(prices)):
         a = 0
         for i in range(p + 1, len(prices)):
-            if prices[p] <= prices[i]:
-                a += 1
-            else:
-                a += 1
+            a += 1
+            if prices[p] > prices[i]:
                 break
         answer.append(a)
     
