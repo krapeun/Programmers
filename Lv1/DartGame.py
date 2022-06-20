@@ -21,7 +21,7 @@ def solution(dartResult):
         elif dart == '#':
             stack[-1] = - stack[-1]
         else:
-            stack[-1] = pow(int(stack[-1]), bonus.index(dart) + 1)
+            stack[-1] = pow(stack[-1], bonus.index(dart) + 1)
     
     while len(stack) != 0:
         answer += int(stack.pop())
