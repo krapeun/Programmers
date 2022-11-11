@@ -1,4 +1,4 @@
-# 오픈 채팅방
+# 42888 오픈 채팅방
 
 def solution(record):
     answer = []
